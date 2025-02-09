@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Edad de Tortuga</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Edad de Tortuga</h1>
+      <img src="resources/turtle.jpg" alt="Tortuga" class="turtle-image" />
+      <p>Ingresa la edad de tu tortuga en años reales:</p>
+      <input
+        type="number"
+        id="turtleAge"
+        placeholder="Edad de la tortuga"
+        min="0"
+      />
+      <button onclick="calculateHumanAge()">Calcular</button>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
